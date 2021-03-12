@@ -23,6 +23,8 @@ using System;
 
 namespace Delegates
 {
+
+
     class Program
     {
         static void Main(string[] args)
@@ -37,13 +39,21 @@ namespace Delegates
             processor.Process("photo.jpg", filterHandler);
 
             // Example 2
+            var video = new Video() { Title = "Video 1" };
+            var videoEncoder = new VideoEncoder(); // publisher
+            var mailService = new MailService(); // subscriber
+            var msgService = new MessageService(); // subscriber
+
+            videoEncoder.VideoEncoded += mailService.OnVideoEncoded;
+            videoEncoder.VideoEncoded += msgService.OnVideoEncoded;
+            videoEncoder.Encode(video);
 
         }
 
         static void RemoveRedEyeFilter(Photo photo)
         {
             Console.WriteLine("Apply RemoveRedEye");
-            
         }
+
     }
 }
