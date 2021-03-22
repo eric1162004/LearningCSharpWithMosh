@@ -19,6 +19,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dynamic", "Dynamic\Dynamic.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Async", "Async\Async.csproj", "{E0AFCEFB-C661-49A4-A284-A90AA0B47F34}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Object Oriented Programming", "Object Oriented Programming", "{36004B56-595E-4E02-8FC6-EE6C486D863E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Classes", "Classes\Classes.csproj", "{4CDAF2A3-889C-4333-AAB6-FDA54CDD2864}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -193,9 +197,32 @@ Global
 		{E0AFCEFB-C661-49A4-A284-A90AA0B47F34}.Release|x64.Build.0 = Release|Any CPU
 		{E0AFCEFB-C661-49A4-A284-A90AA0B47F34}.Release|x86.ActiveCfg = Release|Any CPU
 		{E0AFCEFB-C661-49A4-A284-A90AA0B47F34}.Release|x86.Build.0 = Release|Any CPU
+		{4CDAF2A3-889C-4333-AAB6-FDA54CDD2864}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4CDAF2A3-889C-4333-AAB6-FDA54CDD2864}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4CDAF2A3-889C-4333-AAB6-FDA54CDD2864}.Debug|ARM.ActiveCfg = Debug|Any CPU
+		{4CDAF2A3-889C-4333-AAB6-FDA54CDD2864}.Debug|ARM.Build.0 = Debug|Any CPU
+		{4CDAF2A3-889C-4333-AAB6-FDA54CDD2864}.Debug|ARM64.ActiveCfg = Debug|Any CPU
+		{4CDAF2A3-889C-4333-AAB6-FDA54CDD2864}.Debug|ARM64.Build.0 = Debug|Any CPU
+		{4CDAF2A3-889C-4333-AAB6-FDA54CDD2864}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{4CDAF2A3-889C-4333-AAB6-FDA54CDD2864}.Debug|x64.Build.0 = Debug|Any CPU
+		{4CDAF2A3-889C-4333-AAB6-FDA54CDD2864}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{4CDAF2A3-889C-4333-AAB6-FDA54CDD2864}.Debug|x86.Build.0 = Debug|Any CPU
+		{4CDAF2A3-889C-4333-AAB6-FDA54CDD2864}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4CDAF2A3-889C-4333-AAB6-FDA54CDD2864}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4CDAF2A3-889C-4333-AAB6-FDA54CDD2864}.Release|ARM.ActiveCfg = Release|Any CPU
+		{4CDAF2A3-889C-4333-AAB6-FDA54CDD2864}.Release|ARM.Build.0 = Release|Any CPU
+		{4CDAF2A3-889C-4333-AAB6-FDA54CDD2864}.Release|ARM64.ActiveCfg = Release|Any CPU
+		{4CDAF2A3-889C-4333-AAB6-FDA54CDD2864}.Release|ARM64.Build.0 = Release|Any CPU
+		{4CDAF2A3-889C-4333-AAB6-FDA54CDD2864}.Release|x64.ActiveCfg = Release|Any CPU
+		{4CDAF2A3-889C-4333-AAB6-FDA54CDD2864}.Release|x64.Build.0 = Release|Any CPU
+		{4CDAF2A3-889C-4333-AAB6-FDA54CDD2864}.Release|x86.ActiveCfg = Release|Any CPU
+		{4CDAF2A3-889C-4333-AAB6-FDA54CDD2864}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{4CDAF2A3-889C-4333-AAB6-FDA54CDD2864} = {36004B56-595E-4E02-8FC6-EE6C486D863E}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {93D1B8D2-75DE-4329-98BE-CB3933FE0DBF}
